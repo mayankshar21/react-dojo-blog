@@ -7,7 +7,7 @@ import App from './App';
 // React strict - does additional checks and shows warnings if there are any warnings to report
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App /* root component of the application *//>
   </React.StrictMode>,
   document.getElementById('root')
 );
